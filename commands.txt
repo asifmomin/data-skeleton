@@ -1,0 +1,5 @@
+terraform plan -var-file=../../configs/config.tfvars -out tfplan
+terraform apply tfplan
+terraform destroy -var-file=../../configs/config.tfvars
+
+

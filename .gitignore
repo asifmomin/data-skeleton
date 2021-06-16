@@ -1,0 +1,22 @@
+# Direnv files
+.envrc
+
+#IntelliJ
+.idea/
+.terraform
+*/.terraform/*
+*.iml
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
+talisman_reports
+tfplan
+out/
+ranger-policies-lambda.zip
+
+# Module directory
+work/
+bin/
+.DS_Store
+dev-utils/docker/.env
